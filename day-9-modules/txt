@@ -1,0 +1,21 @@
+..........terraform module .......
+
+1. we can recall the script multiple times /we can reuse the directory multipes
+directory/script = template
+template = without harcoded values(terraform .tfvars)
+
+without hardcoded values we can use this templates according to our requiredments
+templates .......will have only .......>  main.tf ,
+                                          variable.tf,
+                                          ec2.tf,
+                                          output.tf,
+                                          provider.tf .
+
+
+by using template no need to write the resource .
+
+note :-
+1. what arethe  variable in template is not nessary to menation every thing we can use according to our requiredment.
+2. but we should add exatra value in module apart from the template variable
+3. we can create  terraform .tfvars for module but for template
+4. if we created terraform.tfvars given to template so that values will overwritten and default values will taken from the template even we dont menation in module

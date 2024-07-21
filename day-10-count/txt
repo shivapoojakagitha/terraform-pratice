@@ -1,0 +1,10 @@
+result of creating three instance
+Plan: 3 to add, 0 to change, 0 to destroy.
+
+aws_instance.name[0]: Creation complete after 33s [id=i-031994e89a5f1d2fc] .....name of instance = count
+aws_instance.name[2]: Creation complete after 33s [id=i-04761e2e870763c39] .....name of instance = count
+aws_instance.name[1]: Creation complete after 33s [id=i-0c0f189ceaa64695e] .....name of instance = count
+
+
+
+created in index value 0,1,2

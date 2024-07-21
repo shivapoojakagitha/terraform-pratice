@@ -1,0 +1,15 @@
+datasource is used to select the vpc,security group ,subnets which is alredy existing .
+we are alredy created the vpc,sg,keypair for other instance now just useing by datasource.
+we will call by using "tags" only.we will call from remote.
+
+comparing with manual process we are doing in terraform .
+
+
+............ veera notes.....
+What is Data Source?
+Data source in terraform relates to resources but only it gives the information about an object rather than creating one. It provides dynamic information about the entities we define outside of terraform.
+Data Sources allow fetching data about the infrastructure components’ configuration. It allows to fetch data from the cloud provider APIs using terraform scripts.
+When we refer to a resource using a data source, it won’t create the resource. Instead, they get information about that resource so that we can use it in further configuration if required.
+
+How to use Data Source?
+For example, we will create an ec2 instance using a vpc and subnet, both of which are created on aws console that is external to terraform configuration.

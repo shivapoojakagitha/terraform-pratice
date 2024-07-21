@@ -1,0 +1,18 @@
+terraform workspace new <workspacename> ......>ceate a new workspace
+example :-  terraform workspace new dev
+
+terraform workspace select <workspacename> ..... select an existing workspacefile
+example:- terraform workspace select dev
+
+terraform workspace show  .........>  shows the current workspace file
+example:- $ terraform workspace show
+dev
+
+terraform workspace list ........>   list the workspacefiles.
+ example:- terraform workspace list
+  default
+* dev
+
+
+naote : here for every  indiviual workspace have its own state file 
+note 2 : we have single main.tf /same code using for diffrent workspace.

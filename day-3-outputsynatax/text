@@ -1,0 +1,2 @@
+it i will display the output values like publicip ,private ip,ami_id,avalibityzone,,etccc.
+by using sensitive =true we can hidden the  values.

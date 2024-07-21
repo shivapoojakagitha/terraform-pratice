@@ -1,0 +1,9 @@
+i-0ad5060f24cb32e22          t1              i-0ad5060f24cb32e22  
+
+id=i-06c5a2df5b5616808        t2
+
+id=i-0d2306c08a33ff58a        t3              id=i-06c5a2df5b5616808 
+
+
+aws_instance.name[2]: Destroying... [id=i-0d2306c08a33ff58a]
+aws_instance.name[1]: Modifying... [id=i-06c5a2df5b5616808]

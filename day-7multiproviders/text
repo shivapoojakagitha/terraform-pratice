@@ -1,0 +1,21 @@
+1. by using multiproviders we are creating resources in different regions
+<syntax>
+provider "aws"{
+    regions ="region1----->ap-south-1"
+}
+provider "aws"{
+    regions ="region2----->us-east-1"
+    alias =" wish regian name like ---america, austrial,africa,etc"
+}
+by using alias concept we will creat resourcesin diffrent regions
+
+resource "aws_s3_bucket" "name1" {
+    bucket = "pooja-sate-mumbai"
+}
+resource "aws_s3_bucket" "name2" {
+    bucket = "pooja-sate-america"
+    provider = aws.america     -----> by givind provider it will take that pariticalar region mentioned in provider in above.
+}
+
+note1 : local names should be diffrent for same resource ..
+
